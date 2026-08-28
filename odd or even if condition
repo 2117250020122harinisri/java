@@ -1,0 +1,17 @@
+package input;
+
+import java.util.Scanner;
+public class factorial {
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		System.out.println("a=");
+		int a=sc.nextInt();
+		if (a%2==0)
+			System.out.print("even");
+		else
+			System.out.print("odd");
+	}
+
+			
+
+}
