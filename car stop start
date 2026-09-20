@@ -1,0 +1,25 @@
+class Car {
+    String model;
+    String color;
+
+    void start() {
+        System.out.println("Car started");
+    }
+
+    void stop() {
+        System.out.println("Car stopped");
+    }
+
+    public static void main(String[] args) {
+        Car c = new Car();
+
+        c.model = "BMW";
+        c.color = "Black";
+
+        System.out.println("Model: " + c.model);
+        System.out.println("Color: " + c.color);
+
+        c.start();
+        c.stop();
+    }
+}
